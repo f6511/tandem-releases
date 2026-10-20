@@ -1,0 +1,303 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+  <channel>
+    <title>Tandem</title>
+    <link>https://github.com/f6511/tandem-releases/releases</link>
+    <description>Updates for Tandem.</description>
+    <language>en</language>
+    <item>
+      <title>Version 0.1.0</title>
+      <pubDate>Tue, 20 Oct 2026 12:28:46 +0000</pubDate>
+      <sparkle:version>495</sparkle:version>
+      <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown">## 0.1.0 — 2026-10-20
+
+### Features
+
+- **reader:** show notes in a popover, images in a larger sheet and an external link's address before opening it
+- **reader:** open notes and images in place and confirm external links before opening them
+- **reader:** add the appearance popover and text size commands
+- **reader:** report note and image clicks and return focus to a note's reference
+- **reader:** restore and save the reading appearance per edition
+- **bridge:** accept note and image links within the envelope's caps
+- **bridge:** apply font, margins and a paper tone that ignores the app's appearance
+- **bookkit:** decode a listed image for a bounded larger view
+- **bookkit:** read a note's paragraphs by its id
+- **store:** keep a reading appearance per edition
+- **reader:** describe font, margins and paper tone in the reading appearance
+- **settings:** add a keyless local server connection with ollama and lm studio presets
+- **providers:** label a local server on this mac only when ollama lists every model as local
+- **reader:** bookmark the active passage from the toolbar, menu and sidebar
+- **settings:** connect an anthropic api key beside the openai-compatible one
+- **providers:** stream replies over the anthropic messages api
+- **store:** keep bookmarks with their chapter and list them in book order
+- **reader:** save the reading place as the reader reads and reopen there
+- **store:** save and read a session's resume and furthest places
+- **reader:** hide the contents in Focus and restore them on exit
+- **reader:** activate passages by click and from the Reading menu
+- **bridge:** mark the active passage with a margin indicator
+- **reader:** add the Go menu with Back and chapter commands
+- **reader:** show the contents tree in the sidebar
+- **reader:** navigate by contents and internal links with Back
+- **bookkit:** find the chapter and segment a link or anchor lands on
+- **bookkit:** outline the contents tree with each entry's chapter
+- **reader:** render a chapter in the reading window
+- **library:** find the book file of a reading session
+- **bridge:** load a chapter composed ahead of time
+- **store:** find the primary edition of a reading session
+- **alignment:** trust structural links from score 0.5
+- **settings:** give every request error a message and next step
+- **settings:** list apple intelligence with its availability
+- **providers:** add the apple intelligence on-device connection
+- **translation:** host the system download consent for a language pair
+- **providers:** translate on this Mac with Apple Translation in batches of 16
+- **release:** refuse to run from the disk image or when translocated
+- **settings:** check for updates with sparkle from a general tab
+- **settings:** connect an OpenAI-compatible API key with its address, model and Disconnect
+- **providers:** stream Responses or Chat Completions over URLSession after probing the endpoint and its models
+- **providers:** refuse a request for an unserved model, an unsupported language or too small a context before sending
+- **providers:** parse server-sent events into text, usage and mapped errors
+- **settings:** add a Privacy tab to turn off usage data sharing
+- **analytics:** record imports by size bucket and import failures by error token
+- **analytics:** record app launched and report Debug builds to PostHog EU
+- **analytics:** set up the SDK only while sharing is on
+- **analytics:** add AnalyticsService with a PostHog adapter and a fake
+- **analytics:** add closed AnalyticsEvent cases with pinned tokens
+- **workflows:** add the app-wide job coordinator
+- **store:** persist jobs and job items in a v2-jobs migration
+- **workflows:** add job limits, retry policy and fair scheduling order
+- **workflows:** add job contracts and the job transition reducer
+- **library:** add File &gt; Open and Open Recent with Clear Menu
+- **library:** show covers or a list, import by Open Book and drop, and open a reading window
+- **library:** copy picked and dropped books under their security scope
+- **library:** declare EPUB books as a viewer document type
+- **library:** explain each import failure in its own message
+- **providers:** record item count and duration for every request
+- **library:** open the store under Application Support at launch and observe the library
+- **library:** observe recent sessions and each book's progress in the store
+- **library:** make a cover thumbnail once at import and store its path
+- **alignment:** measure precision and recall per link type
+- **alignment:** align paragraphs structurally around manual anchors
+- **alignment:** pair chapter ranges by titles, order, lengths and anchors
+- **alignment:** add anchor evidence and a banded monotonic aligner with affine gaps
+- **library:** read an EPUB's cover image through BookKit
+- **reader:** add the Dev-only two-pane harness and keep Look Up and Translate in the context menu
+- **bridge:** add the reading surface contract and a WebKit surface driven by bridge.js
+- **settings:** add a settings window with a connections tab
+- **library:** own the import task in LibraryManager and cancel it on close
+- **settings:** store connection credentials in the keychain
+- **library:** import books through a journal that recovers interrupted imports on launch
+- **settings:** disclose the text sent and its processing location before first use
+- **store:** journal imports, commit an edition's catalog in one transaction and reuse its session
+- **providers:** define connection and request contracts with a conformance suite
+- **bookkit:** return a composed chapter's segments with its sections
+- **bridge:** validate bridge messages and serve chapters from tandem-book: with a CSP header
+- **bookkit:** compose a chapter's resource ranges into sanitized sections
+- **store:** create the database, migrations, backups and library repository
+- **workflows:** decide resume, furthest and back positions in a pure reducer
+- **bookkit:** extract chapters, segments and locators
+- **model:** name the first extraction version
+- **bookkit:** sanitize resources and split oversized ones into render chunks
+- **bookkit:** parse the EPUB container, package and navigation
+- **library:** open the library window with its empty state
+- **model:** add the identity and locator contracts
+
+### Bug Fixes
+
+- **bridge:** open a focused image once while return or space is held
+- **bookkit:** offer an image's larger view by the type the book lists for it
+- **reader:** mark a chapter read on as furthest once the reader stays past the dwell
+- **reader:** move the resume place with next and previous passage
+- **bridge:** keep a text column in a narrow pane at the largest text and widest margins
+- **bridge:** keep a visible active passage in place when the typography changes
+- **reader:** close a note when the pane's width or the reading appearance changes
+- **bridge:** shorten an image description between characters and read svg link targets
+- **reader:** open a described book image larger from the keyboard
+- **bookkit:** preview only png, jpeg, gif and webp images under a pixel cap
+- **reader:** finish saving the reading appearance when its window closes
+- **reader:** close a note from the old chapter when the next chapter shows
+- **reader:** keep a note that is still loading closed once the reader scrolls
+- **reader:** never offer an external link too long to show in full
+- **store:** open an appearance stored with fewer fields in the standard values
+- **reader:** close only the note, image or link a dismissal names
+- **reader:** follow a note link that has no note behind it, as any link
+- **bookkit:** treat a link target longer than a note as no note
+- **reader:** keep an image closed when a click ends a text selection
+- **bookkit:** hold each visited element while its span is keyed by identity
+- **bookkit:** never split links or quotations, and name what isn't split in ADR-0024
+- **bookkit:** let any element not descended into reset the line break
+- **bookkit:** attach an inline clone to a piece only once it holds text
+- **reader:** check a bookmark's place exactly before showing it
+- **reader:** say when a bookmark's place can't be found
+- **reader:** keep the lost-place notice until the reader dismisses it
+- **reader:** withdraw only the Undo of a bookmark write that failed
+- **bridge:** treat only the scroll the bridge caused as its own
+- **bookkit:** split line-marked paragraphs inside inline elements, cloning each element per piece
+- **ci:** keep a process name with spaces in one column of the benchmark samples
+- **reader:** hold the undo manager weakly and withdraw undo when a bookmark write fails
+- **reader:** count going through bookmarks in a row as one Back step
+- **settings:** offer choose a model in the picker when no model is selected
+- **settings:** let other address replace a chosen local server preset
+- **reader:** keep the quit save armed until a closed window's last save lands
+- **reader:** write a new furthest place on quit even when the resume place is saved
+- **workflows:** restart the furthest-place dwell on chapter steps and further browsing
+- **bridge:** stop reporting the bridge's own re-anchoring as the reader scrolling
+- **reader:** drop a Back place that can no longer be found
+- **reader:** take a link's Back origin once its destination is known
+- **reader:** say when the saved place can't be found and keep it until the reader reads
+- **reader:** keep saving progress when the saved place can't be read
+- **providers:** report an oversized request as too long for the model
+- **reader:** start bookmarks as soon as the book opens
+- **settings:** refuse a connection address that carries credentials, a query or a fragment
+- **settings:** clear a selected model the server stopped offering and ask the reader to choose
+- **reader:** record direct reading only from passages in view
+- **providers:** budget the reply within the context window left after the input
+- **alignment:** ignore tokens that recur across chapters of both editions when pairing chapters
+- **providers:** confirm local routing again each session instead of trusting a stored confirmation
+- **bookkit:** place a later piece at its first element so a boundary inside it leaves earlier pieces behind
+- **bookkit:** track whether a piece has text instead of re-reading it at each indent
+- **bookkit:** resolve chapter boundaries through the piece wrappers of a split block
+- **providers:** keep the system prompt ahead of the passages in every messages body
+- **reader:** give contents rows stable ids, one selected row and expanded parents
+- **reader:** reveal a passage only when it's cut off and never after the activation is replaced
+- **reader:** announce the active passage's first sentence in the book's language
+- **reader:** resolve a link before replacing the current navigation and pop Back only on arrival
+- **reader:** keep the Back origin through unfinished jumps and end contents browsing on scroll
+- **alignment:** cap the chapter length cost so a long companion-only appendix can't erase the pairs
+- **bridge:** send same-chapter fragment links through the reader so Back returns
+- **alignment:** guide the band only by anchor chains of five or more
+- **alignment:** weigh one-sided names lightly so the Verne chapters pair
+- **reader:** count browsing through the contents as one Back step
+- **bookkit:** split a block at each line break before an ideographic space
+- **alignment:** link the japanese title 羅生門 to rashōmon in the rashomon gold
+- **alignment:** define a trusted group as linked on both sides and at the threshold
+- **perf:** cancel the follower on every exit and require the companion position
+- **perf:** warn only about foreground apps that open during a benchmark run
+- **perf:** warn when apps open during a benchmark run and could add WebKit workers
+- **perf:** start the companion follower once tracing records and fail the benchmark when it stops
+- **perf:** keep the benchmark lane going when the run file has no checker libraries to remove
+- **perf:** trace only the tandem dev process this run started
+- **perf:** reap the benchmark run and print its summary when a step fails
+- **perf:** record the display refresh rate in the machine manifest
+- **perf:** start scrolling the follow benchmark only once the hitch trace records
+- **perf:** run benchmarks without coverage or runtime checkers
+- **providers:** leave room for the answer when admitting an apple intelligence request
+- **alignment:** take the chapter length ratio over the span between the first and last anchor pairs
+- **translation:** format provider error messages in a given locale so tests can pin en_US
+- **translation:** tell apart languages that differ only in script when asking for a download
+- **providers:** name the languages to download for Apple Translation instead of a host
+- **providers:** blame the language pair, not the target, when Apple Translation can't pair them
+- **alignment:** count each reference link at most once when measuring
+- **translation:** report a declined download as not prepared and drop cancelled or superseded preparations
+- **settings:** drop string keys duplicated by the merge and restore their order
+- **settings:** drop string keys duplicated by the merge
+- **release:** read a multiline notarization result
+- **release:** give distribute time for two notarization waits
+- **alignment:** estimate the chapter length ratio from anchor pairs, not totals
+- **release:** drop the push token before the linear cli runs
+- **release:** reuse a published zip before archiving or notarizing again
+- **release:** let a rerun on an updated toolchain keep the published manifest
+- **release:** run a manual release only from main
+- **release:** ship a labeled merge whose release run was superseded
+- **settings:** show a custom address again after a relaunch
+- **settings:** keep the newest key when an older connect attempt saves late
+- **providers:** return a finished reply and close its connection even if the server leaves it open
+- **providers:** report an unrecognised client error as a failed request
+- **providers:** fail a reply cut short by its token limit or a content filter
+- **providers:** refuse redirects so book text never reaches another host
+- **harness:** save the position a load ends at, not the one it asked for
+- **bridge:** keep the load's position when a deferred reveal names another chapter
+- **bridge:** reject a mid-load reveal older than the load
+- **harness:** save a pane after every load and programmatic reveal without cancelling its load
+- **bridge:** clear the selection when the new one can't be mapped to segments
+- **bridge:** apply font size as zoom and line height over the book's own sizes
+- **bridge:** hold a reveal that arrives mid-load until the load is ready
+- **alignment:** ignore anchor chains too short to guide the band
+- **store:** keep job items when cached segments are pruned
+- **alignment:** spend at most half the matrix on bands and solve the full matrix at most once
+- **settings:** say what usage data carries besides counts and choices
+- **analytics:** send each event as it is recorded so none flush after an opt-out
+- **analytics:** stop PostHog locating the Mac from its IP address
+- **workflows:** restore a job's state when saving it fails
+- **workflows:** ignore a refill error from a superseded run
+- **store:** let a job that is being cancelled be requested again
+- **workflows:** fail a job whose completion can't be saved
+- **library:** show the library when a reading window receives a book to open
+- **library:** route Finder opens through reading windows and open each requested window once
+- **library:** show each import failure in a batch in turn
+- **library:** find EPUB 2 covers named by the cover meta
+- **library:** open a reading window only when a single book is imported
+- **library:** launch the UI test against a temporary library
+- **library:** skip the cover thumbnail when the image has too many pixels to decode
+- **alignment:** keep evaluated cells within the full matrix
+- **alignment:** seed the length ratio from anchor pairs and refine it until stable
+- **alignment:** guide the band by an anchor chain and widen it until the cost settles
+- **library:** keep a managed copy recovery can't read yet and retry it next launch
+- **library:** reject a directory or oversized source before copying it
+- **providers:** fail a cancelled send instead of returning a partial result
+- **providers:** record every translation request
+- **bookkit:** point relative style URLs at their resource with strictly encoded paths
+- **library:** clear the last import failure when a new import starts
+- **library:** start recovery when LibraryManager is created so every import waits for it
+- **library:** let LibraryManager deinit mid-import so closing cancels it
+- **library:** replay each interrupted import on its own and always sweep staging
+- **library:** discard a managed copy moved before the journal recorded the move
+- **library:** finish an import's cleanup after it is cancelled and report the cancel
+- **bookkit:** keep the body's class and style on a composed section
+- **library:** copy a symlinked source's bytes so the managed copy stands alone
+- **bookkit:** keep a stamped parent's own text with the chapter that owns its segment
+- **bookkit:** point relative style URLs at their resource when composing a chapter
+- **settings:** probe connection availability concurrently
+- **settings:** retry the update when a concurrent first save added the credential
+- **providers:** reach providers only through the request gate
+- **store:** verify a backup before giving it a backup name
+- **store:** order the in-memory library like the database
+- **store:** release a deleted companion instead of failing the session check
+- **workflows:** commit a completed save even after reading moves on
+- **bookkit:** drop a style value that still reaches a remote URL after cleaning
+- **bookkit:** saturate continued list numbers and mark every piece of a split segment
+- **bookkit:** hide the marker on continued pieces of a split list item
+- **bookkit:** add no word break for inline math in a parent's text
+- **bookkit:** split oversized mixed-content wrappers and stamp only their first piece
+- **bookkit:** keep a word break where a child segment sat in its parent's text
+- **bookkit:** keep an end-of-segment offset when creating a locator
+- **bookkit:** continue ordered-list numbering in later render chunks
+- **bookkit:** skip content the sanitizer removes when extracting segments
+- **bookkit:** keep a parent's own text beside its child segments
+- **bookkit:** decode CSS escapes to a fixed point and check url() only after URL attributes
+- **bookkit:** serialize served documents as XML so SVG keeps its case
+- **bookkit:** recompute progression when re-anchoring
+- **bookkit:** repeat oversized wrappers around each chunk and never split a segment
+- **bookkit:** mark segments that hold only code as not translatable
+- **bookkit:** index ids inside tables, pre and math to their segment
+- **bookkit:** remove ping attributes
+- **bookkit:** remove SVG animation and remote url() in presentation attributes
+- **bookkit:** allow external hrefs only on links
+- **bookkit:** sanitize each srcset candidate on its own
+- **bookkit:** decode CSS escapes and drop every non-local url() and image-set()
+- **bookkit:** verify each entry's CRC and size after extracting
+- **bookkit:** compare the compression ratio without rounding down
+- **bookkit:** count every zip entry, including repeated names
+- **bookkit:** reject internal entity declarations before parsing
+- **ci:** don't take an argument label named default for an escape hatch
+- **ci:** catch tag-pinned actions behind quoted keys and flow mappings
+- **model:** reject an href whose first segment holds a colon
+- **ci:** fail the toolchain check when a probe exits nonzero
+
+### Performance
+
+- **bookkit:** reuse a bounded set of opened archives for resource reads
+
+### Reverts
+
+- **docs:** drop the restated segment storage line, already in §6 and the import paragraph
+- **alignment:** take the chapter length ratio from totals again
+- **alignment:** estimate the chapter length ratio from totals again
+- **settings:** undo the duplicate key removal that left the catalog unsorted
+- **ci:** drop the package resolution retry
+</description>
+      <enclosure url="https://github.com/f6511/tandem-releases/releases/download/v0.1.0/Tandem-0.1.0.zip" length="5585784" type="application/octet-stream" sparkle:edSignature="m0h/SzK0FfFt8hEjpdiJFX8H0Q92OekbpDQqOu+V7U9/tDXWcScCnbzywWKgdW2xofi+gWAqNauzGJNCS8NIBQ==" />
+    </item>
+  </channel>
+</rss>
