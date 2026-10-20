@@ -6,6 +6,51 @@
     <description>Updates for Tandem.</description>
     <language>en</language>
     <item>
+      <title>Version 0.2.0</title>
+      <pubDate>Tue, 20 Oct 2026 18:20:50 +0000</pubDate>
+      <sparkle:version>530</sparkle:version>
+      <sparkle:shortVersionString>0.2.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown">## 0.2.0 — 2026-10-20
+
+### Features
+
+- **linking:** match, remove and reset passage links with undo
+- **follow:** reveal counterparts in the other pane and follow scrolling by links
+- **linking:** pair the chapters and link the current pair as the reader arrives
+- **reader:** open a second edition beside the primary in a split view
+- **store:** persist chapter correspondences, alignment runs, manual corrections and session layout
+- **bridge:** report a held pointer and reveal a passage in the upper third
+- **follow:** reduce clicks, scrolls and viewports into highlights and reveals
+- **store:** add the v5 linking migration
+
+### Bug Fixes
+
+- **linking:** pair a book's chapters once, even after every pair is confirmed
+- **reader:** keep the old second book's place out of the one chosen after it
+- **follow:** open a counterpart in another chapter in the upper third with its highlight
+- **follow:** highlight a counterpart already on screen when linking finishes, without scrolling
+- **linking:** keep each book's passages apart when both use the same paths
+- **linking:** drop the running link when another second book is chosen
+- **reader:** bookmark the same pane from the toolbar as from the menu
+- **reader:** enable Add Bookmark when either pane has a passage to bookmark
+- **reader:** name the second book's chapter menu for VoiceOver
+- **follow:** clear the linked highlight when linking turns off
+- **reader:** offer Remove Second Book and Reset Links in the menu bar
+- **reader:** enable Add Bookmark by the focused pane it acts on
+- **store:** reuse a chapter pairing chosen again so its corrections stay reachable
+- **follow:** follow the place where a scroll comes to rest
+- **linking:** let a newer correction of a paragraph win over an older one
+- **follow:** clear the chosen paragraphs when Match Passage ends without an active passage
+- **reader:** fit the pane headers at the minimum width and show the counterpart state over the text
+
+### Performance
+
+- **reader:** stop a divider drag from redrawing the whole reading window
+</description>
+      <enclosure url="https://github.com/f6511/tandem-releases/releases/download/v0.2.0/Tandem-0.2.0.zip" length="5869127" type="application/octet-stream" sparkle:edSignature="37pn0qxdy9iMM74XoyUBZjXGs1WJAwAr04LQAp4t0wY2j3qyA5iOERoG7+TlJT/EwqILoUlSS1I9EXXSt4HfDg==" />
+    </item>
+    <item>
       <title>Version 0.1.0</title>
       <pubDate>Tue, 20 Oct 2026 12:28:46 +0000</pubDate>
       <sparkle:version>495</sparkle:version>
