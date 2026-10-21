@@ -6,6 +6,68 @@
     <description>Updates for Tandem.</description>
     <language>en</language>
     <item>
+      <title>Version 0.5.0</title>
+      <pubDate>Wed, 21 Oct 2026 16:48:20 +0000</pubDate>
+      <sparkle:version>615</sparkle:version>
+      <sparkle:shortVersionString>0.5.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown">## 0.5.0 — 2026-10-21
+
+### Features
+
+- **store:** list every item of a job
+- **reader:** list the translation companion's strings in the string catalog
+- **reader:** translate the page or chapter from the companion and Reading menus, stating scope and destination first
+- **reader:** show the translation beside the book, mirroring its chapter and linked by segment identity
+- **bridge:** replace a paragraph with its translation whole, keeping the first visible paragraph in place
+- **translation:** translate the page or chapter in resumable jobs from the reading window
+- **translation:** run translation jobs through the coordinator, saving each validated block
+- **providers:** translate with a language model in numbered batches, splitting oversized paragraphs
+- **bookkit:** read a passage's emphasis and note references for translation
+- **store:** remember a translation as a session's companion
+- **store:** store translation versions by segment identity and relink job items
+- **workflows:** add a passage scope for jobs that translate one paragraph again
+- **translation:** add the inline text contract that sanitizes translated markup
+
+### Bug Fixes
+
+- **translation:** complete a version when a failed job beside it has nothing left to translate
+- **bridge:** return focus to a note reference after its paragraph was translated
+- **bridge:** dim a restored paragraph as untranslated again
+- **translation:** drop a dropped element's content even when its opening tag is malformed
+- **reader:** open the translation at the previous chapter's end after a backward edge turn, and skip a superseded load's translations
+- **translation:** drop a starting translation's tracking when the reader picks another language
+- **translation:** adopt a job after relaunch only while its language is still the chosen one
+- **translation:** after relaunch, count an adopted job's progress and leave a failure that later work covered
+- **translation:** read quoted attribute values whole, and keep a tag with an unclosed quote as text so the markup after it survives
+- **reader:** turn the book when the reader turns past the translation's edge
+- **follow:** measure translated paragraphs when following into a translation
+- **reader:** keep nested paragraphs when translating, and restore the originals a translation no longer covers
+- **translation:** run a request on the passages it was asked for, through the disclosure, and drop a cancelled preparation
+- **translation:** keep a paused chapter's Resume while a passage is translated again, and bring back a failed job of the newest version
+- **translation:** pause each of a closing window's jobs by its current state and refresh once a version's state is saved
+- **translation:** end a malformed tag at the next bracket so the markup after an unclosed attribute survives
+- **reader:** fit the changed-passages note in a pane at its minimum width
+- **bridge:** keep every marked note reference in a translated paragraph, as the passage reader does
+- **translation:** relink a paused job by its own passages, adopt only a job of the remembered choice, and own restores
+- **translation:** own every translation version's state app-wide and pause all of a closing window's jobs
+- **translation:** run job requests off the main actor, parse each resource once a run, and drop late or orphaned results
+- **bookkit:** keep every marked note reference reachable in translation, whatever its label
+- **providers:** mark note references so a literal bracketed number in a book stays text
+- **providers:** reject a model reply with text outside its numbered blocks
+- **providers:** split a paragraph over 3,000 characters even when it fits the model's context
+- **store:** list the missing-translation message in the string catalog
+- **store:** read a saved translation of any length, so one long paragraph can't hide its chapter
+- **translation:** keep no-break spaces in translated text and drop only an embed's tag
+- **translation:** keep an unterminated tag as literal text, read in one pass
+
+### Performance
+
+- **store:** pick each shown translation in SQL and look segments up by index
+</description>
+      <enclosure url="https://github.com/f6511/tandem-releases/releases/download/v0.5.0/Tandem-0.5.0.zip" length="5741859" type="application/octet-stream" sparkle:edSignature="9tjaUhdRKi33Uy14M4MGAYxyaGuZ89Kwba3sDJq4W0babGZBfPUIIwiVL2lw0rPDSczghVup7hF11s1ueiFTCA==" />
+    </item>
+    <item>
       <title>Version 0.4.0</title>
       <pubDate>Wed, 21 Oct 2026 15:57:34 +0000</pubDate>
       <sparkle:version>546</sparkle:version>
