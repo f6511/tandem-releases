@@ -6,6 +6,40 @@
     <description>Updates for Tandem.</description>
     <language>en</language>
     <item>
+      <title>Version 0.6.0</title>
+      <pubDate>Wed, 21 Oct 2026 20:35:01 +0000</pubDate>
+      <sparkle:version>639</sparkle:version>
+      <sparkle:shortVersionString>0.6.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown">## 0.6.0 — 2026-10-21
+
+### Features
+
+- **ask:** reopen a book's saved conversations with their passage (#46)
+- **ask:** ask about a passage in the inspector (#43)
+- **lookup:** show the Explain and Translate result beside the selection (#42)
+- **linking:** ask the reader's connection about uncertain stretches as a linking job
+- **store:** keep each automatic group's provenance and serve the latest run with it
+- **providers:** ask a model for links between two editions' passages as structured JSON
+- **alignment:** choose model windows, validate replies and score model links structurally
+- **providers:** choose one connection for Explain, Translate to and Ask (#39)
+- **providers:** structured lookups, multi-turn questions and request scoping (#41)
+- **lookup:** add Explain, Translate to and Ask to the context menu (#40)
+- **store:** add the lookup cache and conversation tables (#38)
+
+### Bug Fixes
+
+- **linking:** leave a failed linking job for Try Again instead of resuming it on revisit
+- **assistant:** wrap the connection sheet footnote and name linking in it
+- **linking:** keep the model progress count visible in a narrow pane
+- **linking:** say why asking a connection about links failed
+- **linking:** record a model run when a reply is rejected so the chapter isn't asked again
+- **linking:** drop a model window that lands after asking was cancelled
+- **linking:** keep links a model window published while a correction refreshed
+</description>
+      <enclosure url="https://github.com/f6511/tandem-releases/releases/download/v0.6.0/Tandem-0.6.0.zip" length="6103318" type="application/octet-stream" sparkle:edSignature="6MF8zNd2W6d+uqHEy1fZ8ranpJ0w0zNy74O24EgcmD40Vy9GFJeDYAyR3UwrVc55qpeMwoOcIT9kV8+Csx1pAQ==" />
+    </item>
+    <item>
       <title>Version 0.5.0</title>
       <pubDate>Wed, 21 Oct 2026 16:48:20 +0000</pubDate>
       <sparkle:version>615</sparkle:version>
