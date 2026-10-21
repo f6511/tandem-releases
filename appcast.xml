@@ -6,6 +6,28 @@
     <description>Updates for Tandem.</description>
     <language>en</language>
     <item>
+      <title>Version 0.4.0</title>
+      <pubDate>Wed, 21 Oct 2026 15:57:34 +0000</pubDate>
+      <sparkle:version>546</sparkle:version>
+      <sparkle:shortVersionString>0.4.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown">## 0.4.0 — 2026-10-21
+
+### Features
+
+- **icons:** improve icon contrast
+- **reader:** turn to the next or previous chapter at its edge
+- **bridge:** report scrolling on past a chapter's edge and offer the next chapter at its end
+
+### Bug Fixes
+
+- **settings:** show check for updates once in the app menu
+- **reader:** offer the next chapter only for the current load, and count an edge turn as reading after a lost place
+- **bridge:** turn at an edge only on a fresh, unpressed gesture or plain key, and keep the marker apart from the book
+</description>
+      <enclosure url="https://github.com/f6511/tandem-releases/releases/download/v0.4.0/Tandem-0.4.0.zip" length="5449189" type="application/octet-stream" sparkle:edSignature="XBl11w5W14/5KlkmFF79CzXnIYGLU7lp+496hPOci7iThCwto8sqq5ESh4rVpw2Qr5LOMGhEsOJyzBLkDDxCCg==" />
+    </item>
+    <item>
       <title>Version 0.3.0</title>
       <pubDate>Wed, 21 Oct 2026 05:11:18 +0000</pubDate>
       <sparkle:version>534</sparkle:version>
