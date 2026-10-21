@@ -6,6 +6,20 @@
     <description>Updates for Tandem.</description>
     <language>en</language>
     <item>
+      <title>Version 0.3.0</title>
+      <pubDate>Wed, 21 Oct 2026 05:11:18 +0000</pubDate>
+      <sparkle:version>534</sparkle:version>
+      <sparkle:shortVersionString>0.3.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown">## 0.3.0 — 2026-10-21
+
+### Features
+
+- **settings:** check for updates from the app menu
+</description>
+      <enclosure url="https://github.com/f6511/tandem-releases/releases/download/v0.3.0/Tandem-0.3.0.zip" length="5869715" type="application/octet-stream" sparkle:edSignature="x8lLLwLChdKveS81f602cwjOt/Lio0OVOUfZlZL4Qvnjj3DOxjbbkZ4DZSNtcAMPTH0PkDxYvw69x4E5JI/WAg==" />
+    </item>
+    <item>
       <title>Version 0.2.0</title>
       <pubDate>Tue, 20 Oct 2026 18:20:50 +0000</pubDate>
       <sparkle:version>530</sparkle:version>
