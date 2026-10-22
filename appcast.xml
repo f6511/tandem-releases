@@ -6,6 +6,35 @@
     <description>Updates for Tandem.</description>
     <language>en</language>
     <item>
+      <title>Version 0.7.0</title>
+      <pubDate>Thu, 22 Oct 2026 10:44:48 +0000</pubDate>
+      <sparkle:version>660</sparkle:version>
+      <sparkle:shortVersionString>0.7.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown">## 0.7.0 — 2026-10-22
+
+### Features
+
+- **reader:** fade the toolbar and window buttons while reading (TAN-76)
+- **library:** show the library as a calm Books-style shelf (TAN-79)
+- **library:** export and restore reading data (TAN-56) (#53)
+- **library:** show the privacy note once on first launch (TAN-51) (#52)
+- **providers:** use installed Claude Code and Codex (TAN-66) (#49)
+- **providers:** continue with ChatGPT (TAN-50) (#48)
+
+### Bug Fixes
+
+- **reader:** fade the chrome once the pointer leaves it and after a failed full-screen entry
+- **library:** keep the menu trailing and drop the unreliable New badge
+- **store:** keep the newer waiting progress when exporting
+- **translation:** pick the newest translation version by creation time
+- **providers:** search the login shell path for every installed cli
+- **app:** retry the container settings import until it succeeds
+- **providers:** kill what a stopped run leaves behind once its output ends
+</description>
+      <enclosure url="https://github.com/f6511/tandem-releases/releases/download/v0.7.0/Tandem-0.7.0.zip" length="6454306" type="application/octet-stream" sparkle:edSignature="SMJUPoP4g3d0k7vFA9tCUm1kPz0/zCUKMpZnPNfMbqAGkxmpDxa+OHDXA+n5jEGqEF/OxZ4hQ6udx0V1A7leBg==" />
+    </item>
+    <item>
       <title>Version 0.6.0</title>
       <pubDate>Wed, 21 Oct 2026 20:35:01 +0000</pubDate>
       <sparkle:version>639</sparkle:version>
