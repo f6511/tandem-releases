@@ -6,6 +6,28 @@
     <description>Updates for Tandem.</description>
     <language>en</language>
     <item>
+      <title>Version 0.8.0</title>
+      <pubDate>Thu, 22 Oct 2026 17:52:27 +0000</pubDate>
+      <sparkle:version>675</sparkle:version>
+      <sparkle:shortVersionString>0.8.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown">## 0.8.0 — 2026-10-22
+
+### Features
+
+- **library:** mark books finished, rename and remove them from a … menu
+- **library:** keep each cover's shape on a shared bottom line
+- **reader:** show the chrome only while the pointer is near the top
+- **store:** remove, rename and mark books finished
+
+### Bug Fixes
+
+- **library:** name the book in the removal message so the title never blanks
+- **reader:** keep the opening reveal through a hold taken while the book opens
+</description>
+      <enclosure url="https://github.com/f6511/tandem-releases/releases/download/v0.8.0/Tandem-0.8.0.zip" length="6484803" type="application/octet-stream" sparkle:edSignature="iq7e+6MFH348m2dopJhCaMP/A3BXXYn3SJGFwQ2O6riQovZjNkzFZx+YTr65dogDnxxCeApeq4+Z0rDotnlZAg==" />
+    </item>
+    <item>
       <title>Version 0.7.0</title>
       <pubDate>Thu, 22 Oct 2026 10:44:48 +0000</pubDate>
       <sparkle:version>660</sparkle:version>
