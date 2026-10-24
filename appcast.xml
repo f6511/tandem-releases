@@ -6,6 +6,20 @@
     <description>Updates for Tandem.</description>
     <language>en</language>
     <item>
+      <title>Version 0.10.1</title>
+      <pubDate>Sat, 24 Oct 2026 20:42:48 +0000</pubDate>
+      <sparkle:version>743</sparkle:version>
+      <sparkle:shortVersionString>0.10.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown">## 0.10.1 — 2026-10-24
+
+### Bug Fixes
+
+- **library:** drop the cover backdrop behind the library hero
+</description>
+      <enclosure url="https://github.com/f6511/tandem-releases/releases/download/v0.10.1/Tandem-0.10.1.zip" length="6771998" type="application/octet-stream" sparkle:edSignature="SQ/PSlv1Kg5y3vXQhVHZ2smgh+cNK/8XscDDfdM9mr+Q6k5BpZ1D9G0B4Vv537Vj4QE4IgXyW62zwljEiltIAQ==" />
+    </item>
+    <item>
       <title>Version 0.10.0</title>
       <pubDate>Sat, 24 Oct 2026 20:07:09 +0000</pubDate>
       <sparkle:version>741</sparkle:version>
