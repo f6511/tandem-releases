@@ -6,6 +6,40 @@
     <description>Updates for Tandem.</description>
     <language>en</language>
     <item>
+      <title>Version 0.9.0</title>
+      <pubDate>Sat, 24 Oct 2026 19:21:24 +0000</pubDate>
+      <sparkle:version>716</sparkle:version>
+      <sparkle:shortVersionString>0.9.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown">## 0.9.0 — 2026-10-24
+
+### Features
+
+- **library:** delete translations and show where the reader is from the library
+- **reader:** perform the library's reading request once the window's book is ready
+- **reader:** delete a translation for every session and let an open window close its pane
+- **reader:** label a stored translation version by its connection and processing location
+- **library:** show what a book was read beside, its translations, bookmarks and conversations on its page
+- **library:** reach book details through the library catalog
+- **store:** read a book's companions, link count, translation progress, chapter position and first questions
+- **library:** show books on shelves with a hero and open a book's details as a page
+- **library:** group books into shelves and hand a reading window the library's request
+- **library:** open book details from an info button and switch covers and list in the toolbar
+- **library:** read a book's details from its file when they're shown
+- **bookkit:** read an edition's publisher, date, subjects, series and description
+
+### Bug Fixes
+
+- **library:** keep a book's linked chapter counts current while its page is open
+- **library:** place the hero only by stored chapter starts and check for deletion before creating a version
+- **library:** keep one row per translation, stop a deleted translation coming back and hide an unknown hero chapter
+- **bookkit:** read subjects and series in linear time and drop days a month doesn't have
+- **library:** read book details in linear time and drop placeholder or invalid dates
+- **providers:** sign with a provisioning profile that authorizes the keychain group
+</description>
+      <enclosure url="https://github.com/f6511/tandem-releases/releases/download/v0.9.0/Tandem-0.9.0.zip" length="6631463" type="application/octet-stream" sparkle:edSignature="RgsdnUVUqeGIECip1nmXd5sQzWIwbvbVJpLW6Vef0ZPL0EHPXDAdL2k7u6qwLLBSyUMYkUDduBYa0UfO+GguAQ==" />
+    </item>
+    <item>
       <title>Version 0.8.1</title>
       <pubDate>Sat, 24 Oct 2026 11:34:00 +0000</pubDate>
       <sparkle:version>694</sparkle:version>
