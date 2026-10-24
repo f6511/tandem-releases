@@ -6,6 +6,25 @@
     <description>Updates for Tandem.</description>
     <language>en</language>
     <item>
+      <title>Version 0.11.0</title>
+      <pubDate>Sat, 24 Oct 2026 21:47:57 +0000</pubDate>
+      <sparkle:version>747</sparkle:version>
+      <sparkle:shortVersionString>0.11.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown">## 0.11.0 — 2026-10-24
+
+### Features
+
+- **library:** import calibre epub editions
+
+### Bug Fixes
+
+- **calibre:** isolate the library folder picker
+- **calibre:** preserve reading sessions during catalogue import
+</description>
+      <enclosure url="https://github.com/f6511/tandem-releases/releases/download/v0.11.0/Tandem-0.11.0.zip" length="6826507" type="application/octet-stream" sparkle:edSignature="08AEpvbFoYVvq4+IjTsaSDhwmooS68BifLLng+FjZUKf2LcrBIZ5iphe3vweADldiCIZAbJMmcKC18bKCa6eDw==" />
+    </item>
+    <item>
       <title>Version 0.10.1</title>
       <pubDate>Sat, 24 Oct 2026 20:42:48 +0000</pubDate>
       <sparkle:version>743</sparkle:version>
