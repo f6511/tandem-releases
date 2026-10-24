@@ -6,6 +6,21 @@
     <description>Updates for Tandem.</description>
     <language>en</language>
     <item>
+      <title>Version 0.8.1</title>
+      <pubDate>Sat, 24 Oct 2026 11:34:00 +0000</pubDate>
+      <sparkle:version>694</sparkle:version>
+      <sparkle:shortVersionString>0.8.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown">## 0.8.1 — 2026-10-24
+
+### Bug Fixes
+
+- **bridge:** escape a book's language attribute by unicode scalar
+- **translation:** escape markup characters that carry a combining mark
+</description>
+      <enclosure url="https://github.com/f6511/tandem-releases/releases/download/v0.8.1/Tandem-0.8.1.zip" length="6470041" type="application/octet-stream" sparkle:edSignature="yzL1YJRqca00Gi5u9KAEIKHr2hVWC1zYqn31k/MmriwVSZfgpkBypE5ZSmOfY8M9SjeYIA/RbWyzW2VAu/mEBQ==" />
+    </item>
+    <item>
       <title>Version 0.8.0</title>
       <pubDate>Thu, 22 Oct 2026 17:52:27 +0000</pubDate>
       <sparkle:version>675</sparkle:version>
