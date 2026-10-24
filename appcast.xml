@@ -6,6 +6,20 @@
     <description>Updates for Tandem.</description>
     <language>en</language>
     <item>
+      <title>Version 0.12.0</title>
+      <pubDate>Sat, 24 Oct 2026 21:57:33 +0000</pubDate>
+      <sparkle:version>750</sparkle:version>
+      <sparkle:shortVersionString>0.12.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown">## 0.12.0 — 2026-10-24
+
+### Features
+
+- **library:** show book details as a native sheet
+</description>
+      <enclosure url="https://github.com/f6511/tandem-releases/releases/download/v0.12.0/Tandem-0.12.0.zip" length="6813218" type="application/octet-stream" sparkle:edSignature="CXgoBBL6U2pZEWsiupKlVb9ssieuMgUg2OYwAANhxE+K/2wKPoVTw+MUkzjS96p+URT11LXv0F72kLkVbJKzBA==" />
+    </item>
+    <item>
       <title>Version 0.11.0</title>
       <pubDate>Sat, 24 Oct 2026 21:47:57 +0000</pubDate>
       <sparkle:version>747</sparkle:version>
