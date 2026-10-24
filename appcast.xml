@@ -6,6 +6,37 @@
     <description>Updates for Tandem.</description>
     <language>en</language>
     <item>
+      <title>Version 0.10.0</title>
+      <pubDate>Sat, 24 Oct 2026 20:07:09 +0000</pubDate>
+      <sparkle:version>741</sparkle:version>
+      <sparkle:shortVersionString>0.10.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown">## 0.10.0 — 2026-10-24
+
+### Features
+
+- **reader:** find a passage anywhere in the book
+- **reader:** mark, translate or explain a selection as the reader chooses
+- **store:** keep marks with their color, chapter and excerpt
+- **reader:** keep the window quiet around the book with tabbed settings and a progress line
+- **reader:** fade the reading chrome two seconds after the pointer leaves
+- **reader:** read in pages as well as in a scroll
+
+### Bug Fixes
+
+- **reader:** land a page turn at once when the window hides
+- **store:** order a mark's ends by file before progression so it can cross files
+- **reader:** send a reveal's viewport only once the reveal has settled
+- **reader:** keep find quiet while typing and clear the found match on reading on
+- **reader:** act only on a selection the press made, never on a translated or already marked one
+- **reader:** withdraw the back pill on any reading, keep overlays off the text and reach settings from the keyboard
+- **reader:** keep paged viewports and turns working in a hidden window
+- **reader:** keep page turns through reflow and ignore carried-over wheel momentum
+- **reader:** end a swipe when the layout leaves pages
+</description>
+      <enclosure url="https://github.com/f6511/tandem-releases/releases/download/v0.10.0/Tandem-0.10.0.zip" length="6772336" type="application/octet-stream" sparkle:edSignature="JLNi5Tn8JOH/xLUr1xg5YjDZ7qb8W65BGugMDg4rrqEFFcb4BI9uYpp5Y7CY2e6fqsJ4a2ar/zxpnWRkWC+ACg==" />
+    </item>
+    <item>
       <title>Version 0.9.0</title>
       <pubDate>Sat, 24 Oct 2026 19:21:24 +0000</pubDate>
       <sparkle:version>716</sparkle:version>
