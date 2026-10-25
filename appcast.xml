@@ -6,6 +6,24 @@
     <description>Updates for Tandem.</description>
     <language>en</language>
     <item>
+      <title>Version 0.14.0</title>
+      <pubDate>Sun, 25 Oct 2026 12:34:27 +0000</pubDate>
+      <sparkle:version>810</sparkle:version>
+      <sparkle:shortVersionString>0.14.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown">## 0.14.0 — 2026-10-25
+
+### Features
+
+- **reader:** fade pane headers with the chrome and keep status on the title line
+
+### Bug Fixes
+
+- **reader:** keep the matching bar's buttons whole in a narrow pane
+</description>
+      <enclosure url="https://github.com/f6511/tandem-releases/releases/download/v0.14.0/Tandem-0.14.0.zip" length="6883268" type="application/octet-stream" sparkle:edSignature="UanXwfkfn7oW9Kv/nokFiahSS/7UHoVR8KwvjmOTi6DYaH6JsMwIsOIxVuJ+/IXo6XSHiccejmoHlvL08kKZBg==" />
+    </item>
+    <item>
       <title>Version 0.13.1</title>
       <pubDate>Sun, 25 Oct 2026 12:02:51 +0000</pubDate>
       <sparkle:version>799</sparkle:version>
