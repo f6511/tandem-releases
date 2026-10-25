@@ -6,6 +6,25 @@
     <description>Updates for Tandem.</description>
     <language>en</language>
     <item>
+      <title>Version 0.15.0</title>
+      <pubDate>Sun, 25 Oct 2026 13:32:44 +0000</pubDate>
+      <sparkle:version>822</sparkle:version>
+      <sparkle:shortVersionString>0.15.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown">## 0.15.0 — 2026-10-25
+
+### Features
+
+- **ask:** add trusted cli web research per request
+
+### Bug Fixes
+
+- **ask:** preserve saved source links after inline citations
+- **ask:** repair research answers, links and retry consent
+</description>
+      <enclosure url="https://github.com/f6511/tandem-releases/releases/download/v0.15.0/Tandem-0.15.0.zip" length="6919810" type="application/octet-stream" sparkle:edSignature="GBth8R273WglgSRuhZ6fuj5FWSQrRPIGyqgDdnapL8fQ5JC+oHPxz92/L1ig2zAyRCisWIFMi+dF/ZURVjPjBw==" />
+    </item>
+    <item>
       <title>Version 0.14.0</title>
       <pubDate>Sun, 25 Oct 2026 12:34:27 +0000</pubDate>
       <sparkle:version>810</sparkle:version>
