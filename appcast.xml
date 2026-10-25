@@ -6,6 +6,37 @@
     <description>Updates for Tandem.</description>
     <language>en</language>
     <item>
+      <title>Version 0.13.0</title>
+      <pubDate>Sun, 25 Oct 2026 08:11:45 +0000</pubDate>
+      <sparkle:version>794</sparkle:version>
+      <sparkle:shortVersionString>0.13.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown">## 0.13.0 — 2026-10-25
+
+### Features
+
+- **reader:** show and hide the second pane from the toolbar
+- **reader:** stack neighboring chapters in scroll
+- **reader:** validate chapter window viewport metadata
+- **reader:** define chapter window contract for TAN-77
+
+### Bug Fixes
+
+- **reader:** retain anchors across layout scroll clamps
+- **reader:** show a hidden second pane when its companion is chosen again
+- **reader:** observe chapter padding changes
+- **reader:** preserve anchors during window updates
+- **translation:** complete regenerations with covered failed jobs
+- **jobs:** await persistence and join owned work in tests
+- **reader:** reject viewport chapters outside the window
+- **reader:** stop progress writes after failed reads for TAN-73
+- **reader:** open the companion in the primary's saved settings
+- **reader:** show the primary book's reading settings in both panes
+- **store:** distinguish undecodable rows for TAN-73
+</description>
+      <enclosure url="https://github.com/f6511/tandem-releases/releases/download/v0.13.0/Tandem-0.13.0.zip" length="6878769" type="application/octet-stream" sparkle:edSignature="qkdJq4RuPaAxRZUD9zQrQl0LxIefKALILwm+zuL3P/xvXHqXRPPLM5eqjJuAUYYXilKIT3HJHgq/bwL1o7ysDw==" />
+    </item>
+    <item>
       <title>Version 0.12.0</title>
       <pubDate>Sat, 24 Oct 2026 21:57:33 +0000</pubDate>
       <sparkle:version>750</sparkle:version>
