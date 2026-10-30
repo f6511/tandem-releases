@@ -6,6 +6,26 @@
     <description>Updates for Tandem.</description>
     <language>en</language>
     <item>
+      <title>Version 0.18.0</title>
+      <pubDate>Fri, 30 Oct 2026 13:30:17 +0000</pubDate>
+      <sparkle:version>854</sparkle:version>
+      <sparkle:shortVersionString>0.18.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown">## 0.18.0 — 2026-10-30
+
+### Features
+
+- **onboarding:** redesign the introduction with the brand, an assistant list and a hands-on tour
+
+### Bug Fixes
+
+- **onboarding:** make tour sentences buttons so the keyboard can select them
+- **onboarding:** offer Refresh when ChatGPT models fail to load after sign-in
+- **onboarding:** let keyboard users finish the tour and fit the setup sheet to small windows
+</description>
+      <enclosure url="https://github.com/f6511/tandem-releases/releases/download/v0.18.0/Tandem-0.18.0.zip" length="7047537" type="application/octet-stream" sparkle:edSignature="Yf2Bvw66+welsevMVb1yDt7ndagp99WV8CDJMOUWEJdi1whmEeVgOI6vkFGzwLq4ZHN/fY6Y2+rhQAZ92s1MBQ==" />
+    </item>
+    <item>
       <title>Version 0.17.0</title>
       <pubDate>Fri, 30 Oct 2026 12:23:15 +0000</pubDate>
       <sparkle:version>846</sparkle:version>
