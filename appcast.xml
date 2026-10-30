@@ -6,6 +6,29 @@
     <description>Updates for Tandem.</description>
     <language>en</language>
     <item>
+      <title>Version 0.16.0</title>
+      <pubDate>Fri, 30 Oct 2026 11:46:30 +0000</pubDate>
+      <sparkle:version>837</sparkle:version>
+      <sparkle:shortVersionString>0.16.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown">## 0.16.0 — 2026-10-30
+
+### Features
+
+- **onboarding:** add native welcome flow for tan-94
+
+### Bug Fixes
+
+- **onboarding:** dismiss welcome when reopening recent books
+- **bookkit:** land an anchor on its own segment when another shares its position
+- **alignment:** count noun capitalization only in a long edition in a cased script
+- **bookkit:** resolve the anchor of each piece to its own position
+- **alignment:** pair chapters of an edition that capitalizes every noun
+- **bookkit:** make segments of text loose in the body
+</description>
+      <enclosure url="https://github.com/f6511/tandem-releases/releases/download/v0.16.0/Tandem-0.16.0.zip" length="6968272" type="application/octet-stream" sparkle:edSignature="jqC//T0wKMiSDTWThASjUkHt34UMum2rl8oj+tevQQGpuHsV20AkfE4i+jMjmOEiBtg6UlxSw8K5eFc6cpd2Bg==" />
+    </item>
+    <item>
       <title>Version 0.15.0</title>
       <pubDate>Sun, 25 Oct 2026 13:32:44 +0000</pubDate>
       <sparkle:version>822</sparkle:version>
