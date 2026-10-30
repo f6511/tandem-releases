@@ -6,6 +6,27 @@
     <description>Updates for Tandem.</description>
     <language>en</language>
     <item>
+      <title>Version 0.17.0</title>
+      <pubDate>Fri, 30 Oct 2026 12:23:15 +0000</pubDate>
+      <sparkle:version>846</sparkle:version>
+      <sparkle:shortVersionString>0.17.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown">## 0.17.0 — 2026-10-30
+
+### Features
+
+- **library:** show books as a grouped list beside a details inspector in one window
+- **store:** name the companion edition in session summaries
+
+### Bug Fixes
+
+- **app:** host library sheets and book details in the window that presents them
+- **library:** show when each edition of a book was last read
+- **app:** keep the welcome replay in the menu of the unified window
+</description>
+      <enclosure url="https://github.com/f6511/tandem-releases/releases/download/v0.17.0/Tandem-0.17.0.zip" length="6968775" type="application/octet-stream" sparkle:edSignature="RYgY3CtFa+iOh76mAFMAkvt+XKhRF6PrrRUtiyF3CzV84iqD/Sw3cFD9izrh90ROUzqolm9qUvyyYVOTnEZtCA==" />
+    </item>
+    <item>
       <title>Version 0.16.0</title>
       <pubDate>Fri, 30 Oct 2026 11:46:30 +0000</pubDate>
       <sparkle:version>837</sparkle:version>
