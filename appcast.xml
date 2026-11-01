@@ -6,6 +6,60 @@
     <description>Updates for Tandem.</description>
     <language>en</language>
     <item>
+      <title>Version 0.21.0</title>
+      <pubDate>Sun, 01 Nov 2026 22:22:21 +0000</pubDate>
+      <sparkle:version>929</sparkle:version>
+      <sparkle:shortVersionString>0.21.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown">## 0.21.0 — 2026-11-01
+
+### Features
+
+- **reader:** mirror chapter menus in both panes, count book pages and toggle bookmarks
+- **reader:** offer do nothing, mark, translate or explain on selection
+- **reader:** compact the explain popover
+- **library:** translate a book from the library and show its progress with pause and resume
+- **translation:** translate a whole book in the background from the reader
+- **reader:** shorten the selection context menu
+- **reader:** translate selections with the system translation popover
+- **reader:** mark linked passages with a margin line and move linking into a read along menu
+- **linking:** link second editions by default and relink around manual matches
+- **store:** observe each unfinished job's completed items
+- **jobs:** run book jobs in their own lane beside the window's jobs
+- **reader:** merge text and layout settings into a theme tab with presets
+- **reader:** list library books under add a second book in the file menu
+
+### Bug Fixes
+
+- **bookkit:** stop measuring a closed book between chapters
+- **reader:** forget the page size when a short chapter is laid out again
+- **reader:** show a bookmark only on the page where it starts
+- **translation:** match book progress to the row version
+- **translation:** advance past paragraphs held by another lane
+- **linking:** resume only open windows and keep a chosen companion chapter to its editions
+- **privacy:** list the system translate popover as an apple translation call site
+- **reader:** offer remove link for the passage under the selection
+- **reader:** update book progress while scrolling and calibrate pages when measuring finishes
+- **translation:** allow book translation from textless chapters
+- **translation:** report incomplete book extraction before confirmation
+- **linking:** keep crossing corrections, ask no model after a correction and open the chosen companion chapter
+- **translation:** share in-flight passages across translation lanes
+- **reader:** restore the closing brace lost in the merge
+- **reader:** show the book title so the toolbar keeps its controls at the trailing edge
+- **linking:** keep model links, supersede stale requests and save link every passage at once
+- **reader:** show an explain result that arrives after the popover opened
+
+### Performance
+
+- **bookkit:** parse each resource once when measuring a whole book
+
+### Reverts
+
+- **reader:** show a bookmark only on the page where it starts
+</description>
+      <enclosure url="https://github.com/f6511/tandem-releases/releases/download/v0.21.0/Tandem-0.21.0.zip" length="7160681" type="application/octet-stream" sparkle:edSignature="A+elFEWMoC2Z7DztkU4a5fnUN7O6Yel+RWmkjzuQDBL+Diw2wOFmKVljCnV60xhpkNv+TBxlIzsZyVUcpg4EDg==" />
+    </item>
+    <item>
       <title>Version 0.20.1</title>
       <pubDate>Sun, 01 Nov 2026 12:18:58 +0000</pubDate>
       <sparkle:version>873</sparkle:version>
