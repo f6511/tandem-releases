@@ -6,6 +6,20 @@
     <description>Updates for Tandem.</description>
     <language>en</language>
     <item>
+      <title>Version 0.20.1</title>
+      <pubDate>Sun, 01 Nov 2026 12:18:58 +0000</pubDate>
+      <sparkle:version>873</sparkle:version>
+      <sparkle:shortVersionString>0.20.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown">## 0.20.1 — 2026-11-01
+
+### Bug Fixes
+
+- **onboarding:** move analytics choice to final step
+</description>
+      <enclosure url="https://github.com/f6511/tandem-releases/releases/download/v0.20.1/Tandem-0.20.1.zip" length="7079586" type="application/octet-stream" sparkle:edSignature="1J9+7LWqBK/Daj+IhhlehT3plRrCfUgKfuRjMg3dQXJkqDvk0BEwOqqOVxAGmMAaNFqRrjTXARYxCQC3SUagAg==" />
+    </item>
+    <item>
       <title>Version 0.20.0</title>
       <pubDate>Sun, 01 Nov 2026 12:12:47 +0000</pubDate>
       <sparkle:version>869</sparkle:version>
